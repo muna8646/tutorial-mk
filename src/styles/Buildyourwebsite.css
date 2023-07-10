@@ -1,0 +1,173 @@
+/* Buildyourwebsite.css */
+/* Buildyourwebsite.css */
+
+.container {
+  display: flex;
+}
+
+#contentml {
+  width: calc(100% - 250px); 
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Add fixed position */
+  left: 0; /* Position the sidebar to the left */
+  top: 60px; /* Position the sidebar to the top */
+}
+
+/* Rest of the CSS code remains the same */
+
+.container {
+  display: flex;
+}
+
+#contentml {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  position: relative;
+}
+
+.sidebar a {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  color: #333;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background-color: #f1f1f1;
+}
+
+.feat-btn .fas,
+.serv-btn .fas {
+  margin-left: auto;
+  transition: transform 0.4s;
+}
+
+.rotate {
+  transform: rotate(-180deg);
+}
+
+.feat-show,
+.serv-show {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.active .fas {
+  transform: rotate(-180deg);
+}
+
+.sidebar a .fas {
+  margin-left: auto;
+}
+
+.sidebar ul ul {
+  display: none;
+  background-color: #f1f1f1;
+  padding-left: 30px;
+}
+
+.sidebar ul ul li {
+  position: relative;
+}
+
+.sidebar ul li:hover > ul {
+  display: block;
+}
+
+.sidebar ul ul a {
+  color: #555;
+}
+
+.sidebar ul ul a:hover {
+  background-color: #e5e5e5;
+}
+.sidebar a:hover .fa-caret-down {
+  transform: rotate(-180deg);
+  transition: transform 0.4s;
+}
+/* Buildyourwebsite.css */
+
+.container {
+  display: flex;
+}
+
+#contentml {
+  width: calc(100% - 250px); 
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Add fixed position */
+  left: 0; /* Position the sidebar to the left */
+  top: 60px; /* Position the sidebar to the top */
+  overflow-y: auto; /* Allow vertical scrolling */
+}
+
+/* Rest of the CSS code remains the same */
+
+.sidebar a:hover {
+  background-color: #f1f1f1;
+}
+
+.sidebar a:hover .fa-caret-down {
+  transform: rotate(-180deg);
+  transition: transform 0.4s;
+}
+
+.feat-show,
+.serv-show {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.active .fa-caret-down {
+  transform: rotate(-180deg);
+}
